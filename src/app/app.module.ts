@@ -6,11 +6,15 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialImportsModule } from './material-imports/material-imports.module';
 import { E01BindingComponent } from './e01-binding/e01-binding.component';
+import { E02ListComponent } from './e02-list/e02-list.component';
+import { E02ListRevisionComponent } from './e02-list-revision/e02-list-revision.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    E01BindingComponent
+    E01BindingComponent,
+    E02ListComponent,
+    E02ListRevisionComponent
   ],
   imports: [
     BrowserModule,

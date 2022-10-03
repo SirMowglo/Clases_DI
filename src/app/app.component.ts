@@ -8,3 +8,9 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'Ejercicios_DI';
 }
+
+export interface Profesor{
+  id: number;
+  name: string;
+  subject: string;
+}
